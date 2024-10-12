@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+    <channel>
+        <title>Salesforce Blog</title>
+        <link>https://www.salesforce.com/blog/</link>
+        <description>Latest news from Salesforce</description>
+        <item>
+            <title>Salesforce Innovations in 2024</title>
+            <link>https://www.salesforce.com/blog/salesforce-innovations-2024</link>
+            <pubDate>Thu, 29 Sep 2024 09:00:00 GMT</pubDate>
+            <description>Discover the latest innovations from Salesforce for the coming year.</description>
+        </item>
+        <item>
+            <title>Maximizing CRM Efficiency with Salesforce</title>
+            <link>https://www.salesforce.com/blog/maximizing-crm-efficiency</link>
+            <pubDate>Wed, 28 Sep 2024 12:00:00 GMT</pubDate>
+            <description>Tips and tricks for maximizing efficiency using Salesforce CRM.</description>
+        </item>
+        <item>
+            <title>New Features in Salesforce Winter '24 Release</title>
+            <link>https://www.salesforce.com/blog/winter-24-release-features</link>
+            <pubDate>Tue, 27 Sep 2024 15:30:00 GMT</pubDate>
+            <description>An overview of the new features in the Winter '24 release.</description>
+        </item>
+    </channel>
+</rss>

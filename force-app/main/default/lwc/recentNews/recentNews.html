@@ -1,0 +1,20 @@
+<template>
+    <lightning-card title="Recent Salesforce News">
+        <template if:true={newsList}>
+            <ul>
+                <template for:each={newsList} for:item="newsItem">
+                    <li key={newsItem.Id}>
+                        <div>
+                            <h3>{newsItem.Title__c}</h3>
+                            <p>{newsItem.PublicationDate__c}</p>
+                            <lightning-button label="Read More" variant="brand" onclick={handleRedirect} data-link={newsItem.Link__c}></lightning-button>
+                        </div>
+                    </li>
+                </template>
+            </ul>
+        </template>
+        <template if:false={newsList}>
+            <p>No news available.</p>
+        </template>
+    </lightning-card>
+</template>
